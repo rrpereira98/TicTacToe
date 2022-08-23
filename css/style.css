@@ -1,0 +1,11 @@
+.board {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 100px 100px 100px;
+    gap: 1px;
+}
+
+.board-space {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
